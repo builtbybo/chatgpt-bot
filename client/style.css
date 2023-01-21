@@ -8,21 +8,36 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 body {
-  background: #343541;
+  background: #1d1e25;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
-
+  background: #1d1e25;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-container {
+  font-family: 'Ranga', cursive;
+  font-weight: 400;
+  color: #fff;
+  margin: 20px 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.main-header {
+  margin-left: 10px;
+  text-align: center;
 }
 
 #chat_container {
@@ -40,6 +55,7 @@ body {
 
   padding-bottom: 20px;
   scroll-behavior: smooth;
+
 }
 
 /* hides scrollbar */
@@ -77,6 +93,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .ai .profile {
@@ -98,6 +115,8 @@ body {
 
   max-width: 100%;
   overflow-x: scroll;
+  font-family: 'Roboto Condensed', sans-serif;
+
 
   /*
    * white space refers to any spaces, tabs, or newline characters that are used to format the CSS code
